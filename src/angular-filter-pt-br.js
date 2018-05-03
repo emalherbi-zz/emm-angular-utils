@@ -49,6 +49,40 @@ app.filter('formatBase64Encode', function() {
   };
 });
 /**
+ * [Tel]
+ */
+app.filter('formatTel', function() {
+  return function(text) {
+    if (text) {
+      if (text <= 10) {
+        // (99) 9999-9999
+        return '(' + text.substr(0, 2) + ') ' + text.substr(2, 4) + '-' + text.substr(6, 4);
+      } else {
+        // (99) 99999-9999
+        return '(' + text.substr(0, 2) + ') ' + text.substr(2, 5) + '-' + text.substr(7, 4);
+      }
+    }
+    return '';
+  };
+});
+/**
+ * [CPF/CNPJ]
+ */
+app.filter('formatCnpjCpf', function() {
+  return function(text) {
+    if (text) {
+      if (text <= 11) {
+        // 999.999.999-99
+        return text.substr(0, 3) + '.' + text.substr(3, 3) + '.' + text.substr(6, 3) + '-' + text.substr(9, 2);
+      } else {
+        // 99.999.999/9999-99
+        return text.substr(0, 2) + '.' + text.substr(2, 3) + '.' + text.substr(5, 3) + '/' + text.substr(8, 4) + '-' + text.substr(12, 2);
+      }
+    }
+    return '';
+  };
+});
+/**
  * [Utils]
  */
 var Zeros = {

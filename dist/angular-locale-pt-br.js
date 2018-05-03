@@ -1,6 +1,6 @@
 /*!
  * angular-modules v1.0.0 (https://github.com/emalherbi/angular-modules)
- * Copyright 2017 Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)
+ * Copyright 2018 Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)
  * Licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
  */
 'use strict';
@@ -108,7 +108,7 @@ angular.module('emm-locale-pt-br', [], ['$provide', function($provide) {
       'shortTime': 'HH:mm'
     },
     'NUMBER_FORMATS': {
-      'CURRENCY_SYM': 'R$',
+      'CURRENCY_SYM': 'R$ ',
       'DECIMAL_SEP': ',',
       'GROUP_SEP': '.',
       'PATTERNS': [{
