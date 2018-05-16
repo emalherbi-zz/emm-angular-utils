@@ -1,3 +1,3 @@
-# angular-modules
+# emm-angular-utils
 
-My AngularJS Modules
+My angular utils

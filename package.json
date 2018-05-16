@@ -1,11 +1,13 @@
 {
-  "name": "angular-modules",
+  "name": "emm-angular-utils",
   "version": "1.0.0",
-  "description": "Angular Modules",
+  "description": "My angular utils",
   "homepage": "https://github.com/emalherbi/angular-modules",
   "keywords": [
+    "Javascript",
+    "Angular",
     "AngularJS",
-    "Modules"
+    "Utils"
   ],
   "author": "Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)",
   "license": {
