@@ -2,9 +2,9 @@
 
 My angular utils
 
-# Locales
+# Currency
 
-PT_BR
+- Locales: PT_BR
 
 # Utils
 
