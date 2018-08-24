@@ -2,17 +2,22 @@
 
 My angular utils
 
-# Currency
+# emm-locale-pt-br
 
-- Locales: PT_BR
+- Format currency PT_BR
 
-# Utils
+# emm-filter-pt-br
 
 - formatStringUpperCase
 - formatNumberToString
+- formatNumber
 - formatDateBr
 - formatDateTimeBr
 - formatBase64Decode
 - formatBase64Encode
 - formatTel
 - formatCnpjCpf
+
+# emm-directive-pt-br
+
+- currencyBr

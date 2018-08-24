@@ -18,6 +18,7 @@ module.exports = function(grunt) {
       },
       basic_and_extras: {
         files: {
+          '<%= properties.dist %>/emm-angular-directive-pt-br.js': ['<%= properties.src %>/emm-angular-directive-pt-br.js'],
           '<%= properties.dist %>/emm-angular-filter-pt-br.js': ['<%= properties.src %>/emm-angular-filter-pt-br.js'],
           '<%= properties.dist %>/emm-angular-locale-pt-br.js': ['<%= properties.src %>/emm-angular-locale-pt-br.js']
         },
@@ -30,6 +31,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
+          '<%= properties.dist %>/emm-angular-directive-pt-br.min.js': ['<%= properties.src %>/emm-angular-directive-pt-br.js'],
           '<%= properties.dist %>/emm-angular-filter-pt-br.min.js': ['<%= properties.dist %>/emm-angular-filter-pt-br.js'],
           '<%= properties.dist %>/emm-angular-locale-pt-br.min.js': ['<%= properties.dist %>/emm-angular-locale-pt-br.js']
         }

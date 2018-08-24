@@ -1,5 +1,5 @@
 /*!
- * emm-angular-utils v1.0.1 (https://github.com/emalherbi/angular-modules)
+ * emm-angular-utils v1.0.2 (https://github.com/emalherbi/angular-modules)
  * Copyright 2018 Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)
  * Licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
  */
@@ -23,6 +23,12 @@ app.filter('formatStringUpperCase', function() {
 app.filter('formatNumberToString', function() {
   return function(text) {
     return text && Zeros.addLeft(text.toString(), '2');
+  };
+});
+//
+app.filter('formatNumber', function() {
+  return function(text) {
+    return Number(text);
   };
 });
 /**

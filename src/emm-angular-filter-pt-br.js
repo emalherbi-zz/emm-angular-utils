@@ -20,6 +20,12 @@ app.filter('formatNumberToString', function() {
     return text && Zeros.addLeft(text.toString(), '2');
   };
 });
+//
+app.filter('formatNumber', function() {
+  return function(text) {
+    return Number(text);
+  };
+});
 /**
  * [Date]
  */
