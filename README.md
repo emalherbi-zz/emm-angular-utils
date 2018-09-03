@@ -20,4 +20,8 @@ My angular utils
 
 # emm-directive-pt-br
 
+- numberBr
 - currencyBr
+- cepBr
+- telBr
+- cnpjcpfBr
