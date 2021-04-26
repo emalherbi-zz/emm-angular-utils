@@ -1,6 +1,6 @@
 /*!
  * emm-angular-utils v1.0.2 (https://github.com/emalherbi/angular-modules)
- * Copyright 2018 Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)
+ * Copyright 2021 Eduardo Malherbi Martins <emalherbi@gmail.com> (http://emalherbi.com/)
  * Licensed under MIT (http://en.wikipedia.org/wiki/MIT_License)
  */
 'use strict';
